@@ -17,14 +17,15 @@ namespace Webvendas.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sistema de Vendas WEB - C# .NET Core";
+            ViewData["Aluno"] = "João Paulo Magalhães";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contato";
 
             return View();
         }
