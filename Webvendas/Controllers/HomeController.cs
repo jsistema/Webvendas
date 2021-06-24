@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Webvendas.Models;
+using Webvendas.Models.ViewModels;
 
 namespace Webvendas.Controllers
 {
