@@ -26,4 +26,9 @@ Criado controlador de departamentos para integração com view. Criado view depa
 ##### Versão 1.0.0.4  
 Data: 24/06/2021  
 Alterações:  
-Excluído controlador de deparamentos criado na versão 1.0.0.3. Incluído CRUD de departamentos com mapeamento ORM. Injetado Entity Framework nas dependências.  
+Excluído controlador de deparamentos criado na versão 1.0.0.3. Incluído CRUD de departamentos com mapeamento ORM. Injetado Entity Framework nas dependências.    
+
+##### Versão 1.0.0.5  
+Data: 24/06/2021  
+Alterações:  
+Incluído através do entity framework, o primeiro mapeamento objeto relacional para a tabela deparamentos. Migration inicial.  
