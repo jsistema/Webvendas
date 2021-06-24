@@ -32,3 +32,8 @@ Excluído controlador de deparamentos criado na versão 1.0.0.3. Incluído CRUD 
 Data: 24/06/2021  
 Alterações:  
 Incluído através do entity framework, o primeiro mapeamento objeto relacional para a tabela deparamentos. Migration inicial.  
+
+##### Versão 1.0.0.6 
+Data: 24/06/2021  
+Alterações:  
+Incluído entidades de vendas/SalesRecord e vendedores/Sellers através da segunda migration versão 1006.  
