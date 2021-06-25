@@ -36,4 +36,9 @@ Incluído através do entity framework, o primeiro mapeamento objeto relacional 
 ##### Versão 1.0.0.6 
 Data: 24/06/2021  
 Alterações:  
-Incluído entidades de vendas/SalesRecord e vendedores/Sellers através da segunda migration versão 1006.  
+Incluído entidades de vendas/SalesRecord e vendedores/Sellers através da segunda migration versão 1006.   
+
+##### Versão 1.0.0.7 
+Data: 25/06/2021  
+Alterações:  
+Incluído SeedingService para popular entidades no banco de dados. 
