@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Webvendas.Data;
+using Webvendas.Services;
 
 namespace Webvendas
 {
@@ -40,7 +41,11 @@ namespace Webvendas
                     options.UseMySql(Configuration.GetConnectionString("WebvendasContext"), builder => 
                     builder.MigrationsAssembly("Webvendas")));
 
+
+            //Injeção de Dependência
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
+            services.AddScoped<DepartmentService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
